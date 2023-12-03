@@ -1,6 +1,6 @@
 from modules import MENU, resources
 
-# TODO: 1. Print report for all machine resources
+
 # also create a constant for keep track of the money we get
 
 profit = 0
@@ -16,8 +16,6 @@ def report():
 
 report()
 
-# TODO: 2. Create a function to calculate the coins and return the total amount
-
 
 def coins():
     """Returns the total calculated from coins inserted."""
@@ -29,8 +27,6 @@ def coins():
     money = quarters + dimes + nickles + pennies
     return money
 
-
-# TODO: 3. Create a function for the chosen coffee and check if:
 
 
 def make_coffee(answer):
@@ -72,8 +68,6 @@ def make_coffee(answer):
         print(f"Here is your {answer} ☕. Enjoy!")
     # report()
 
-# TODO: 4. Create an variable for the while loop and make a input to catch the desired coffee
-# TODO: 4.1 while the variable is true, the program will continue
 
 
 would_like = True
