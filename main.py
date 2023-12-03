@@ -28,7 +28,6 @@ def coins():
     return money
 
 
-
 def make_coffee(answer):
     """Get the input (i.e., the coffee option) and the function coins.
     Check if:
@@ -67,7 +66,6 @@ def make_coffee(answer):
             print(f"Here is ${change} in change.")
         print(f"Here is your {answer} ☕. Enjoy!")
     # report()
-
 
 
 would_like = True
